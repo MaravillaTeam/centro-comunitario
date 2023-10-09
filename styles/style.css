@@ -253,3 +253,22 @@ background-color: #b45cbc;
     gap: 8px;
 }
 a{text-decoration: none;}
+.footer1{
+    background-color:#EBDEF0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #FF66FF ;
+}
+.footer2{
+    background-color:#EBDEF0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    color: black;
+    padding-left: 100px;
+}
+img{
+    align-content: center;
+    background-color: #EBDEF0 ;
+    float: left;
+    gap: 25px;
+}
