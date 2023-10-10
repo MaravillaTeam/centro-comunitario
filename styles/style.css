@@ -166,14 +166,22 @@ h4{
    .Banner{
     background-color: #B05BBE;
    }
-   *{font-family: 'Raleway', sans-serif;;}
-#uno{
+   #uno{
     color:#b45cbc;
     font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
 }
 #dos{
     color:#b45cbc;
     font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+   
 }
 #tres{
     color:#b45cbc;
@@ -194,27 +202,31 @@ padding: 16px 24px;
 background-color: #b45cbc;
 }
 
-.card{
+.card1{
+        display: flex;
+        flex-direction: column;
         width: 500px;
         height: 300px;
         padding: 10px;
         text-align: center;
         border-radius: 10px;
+        align-items: center;   
 }
-.card p{
+.card1 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
 }
 .card2{
-    width: 400px; ;
-    height: 300px ;
+    width: 500px; ;
+    height: 400px ;
     padding: 10px;
     text-align: center; 
     border-radius: 10px; 
+    margin-bottom: 10px;
 }
 .card2 p{
-    text-align: justify;
-    padding-left: 30px;
+    text-align: center;
+    font-size: 22px;
 }
 .container{
     display: flex;
@@ -222,13 +234,13 @@ background-color: #b45cbc;
     gap: 10px;
     margin: 50px;
     place-content: center;
-    align-content: justify
+    justify-content: space-around;
 }
 .container2{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    text-align: justify;
+    text-align: center;
     place-content: center;
     align-content: justify;
     text-decoration: none;
