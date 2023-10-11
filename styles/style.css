@@ -1,13 +1,65 @@
-html{
+/*Para todo el html*/
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
-*, ::before, ::after {
-    box-sizing: inherit;
+
+body{
+    background-color: white;
+    min-height: 100%;
 }
-body {
-    margin: 15px;
-    font-family: 'Raleway', sans-serif;
+
+html{
+    height: 100%;
 }
+header{
+    display: flex;
+}
+.logo {
+    margin-left: 40px;
+    margin-right: 80px;
+}
+nav {
+    width: 100%;
+    padding-top: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: #B05BBE;
+    font-weight: bold;
+}
+
+.caja {
+    margin-top: 20px;
+    height: 700px;
+    background-color: rgba(250, 234, 253, 1);
+    border: 2px solid red;
+}
+#inicio h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+#inicio img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+#nosotros {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#nosotros h2 {
+    text-align: center;
+}
+
 header{
     display: flex;
 }
@@ -103,6 +155,8 @@ a {
 }
 
 /* section news final */
+
+/*Empieza sección Sandra*/
 @import url(https://fonts.google.com/specimen/Raleway?query=raleway);
 @import url(https://fonts.google.com/specimen/Rambla?query=rambla);
 
@@ -166,7 +220,7 @@ h4{
    .Banner{
     background-color: #B05BBE;
    }
-
+/*Termina sección Sandra*/
 #uno{
     color:#b45cbc;
     font-weight: bold;
@@ -304,9 +358,7 @@ th {
     background-color: rgb(218, 114, 231);
     border: 2px solid rgb(218, 114, 231);
 }
-<<<<<<< HEAD
-=======
-.cajaF {
+.contacto {
     margin-top: 20px;
     height: 700px;
     background-color: rgba(250, 234, 253, 1);
@@ -355,4 +407,3 @@ input[type=email]{
     border: none;
     border-radius: 4px;
 }
->>>>>>> 53d496c3be39aa1971b2debb31baab3d8fc73430
