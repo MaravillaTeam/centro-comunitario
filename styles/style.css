@@ -166,14 +166,23 @@ h4{
    .Banner{
     background-color: #B05BBE;
    }
-   *{font-family: 'Raleway', sans-serif;;}
+
 #uno{
     color:#b45cbc;
     font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
 }
 #dos{
     color:#b45cbc;
     font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+   
 }
 #tres{
     color:#b45cbc;
@@ -194,27 +203,31 @@ padding: 16px 24px;
 background-color: #b45cbc;
 }
 
-.card{
+.card1{
+        display: flex;
+        flex-direction: column;
         width: 500px;
-        height: 300px;
+        height: 400px;
         padding: 10px;
         text-align: center;
         border-radius: 10px;
+        align-items: center;   
 }
-.card p{
+.card1 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
 }
 .card2{
-    width: 400px; ;
-    height: 300px ;
+    width: 500px; ;
+    height: 400px ;
     padding: 10px;
     text-align: center; 
     border-radius: 10px; 
+    margin-bottom: 10px;
 }
 .card2 p{
-    text-align: justify;
-    padding-left: 30px;
+    text-align: center;
+    font-size: 22px;
 }
 .container{
     display: flex;
@@ -222,13 +235,13 @@ background-color: #b45cbc;
     gap: 10px;
     margin: 50px;
     place-content: center;
-    align-content: justify
+    justify-content: space-around;
 }
 .container2{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    text-align: justify;
+    text-align: center;
     place-content: center;
     align-content: justify;
     text-decoration: none;
@@ -291,3 +304,55 @@ th {
     background-color: rgb(218, 114, 231);
     border: 2px solid rgb(218, 114, 231);
 }
+<<<<<<< HEAD
+=======
+.cajaF {
+    margin-top: 20px;
+    height: 700px;
+    background-color: rgba(250, 234, 253, 1);
+    border: 2px solid rgba(250, 234, 253, 1);
+}
+.llenarF {
+    width: 100px;
+    height: 50px;
+    color: #d886cd !important;
+    border-radius: 0.5rem;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #B05BBE;
+    transition: all 1s ease;
+}
+.llenarF:hover {
+    background: #B05BBE;
+    color: #fff !important;
+}
+.containerF{
+    border: #FAEAFD;
+    background-color: #FAEAFD;
+    display:flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: 50px;
+    display: flex;
+}
+.card2F{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    width: 700px;
+    height: 600px;
+    padding-bottom: 30px;
+}
+input[type=text]{
+    padding: 1rem 15rem 1rem 1rem;
+    border: none;
+    border-radius: 4px;
+}
+input[type=email]{
+    padding: 1rem 15rem 1rem 1rem;
+    border: none;
+    border-radius: 4px;
+}
+>>>>>>> 53d496c3be39aa1971b2debb31baab3d8fc73430
