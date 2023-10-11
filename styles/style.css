@@ -166,7 +166,8 @@ h4{
    .Banner{
     background-color: #B05BBE;
    }
-   #uno{
+
+#uno{
     color:#b45cbc;
     font-weight: bold;
     text-align: center;
@@ -206,7 +207,7 @@ background-color: #b45cbc;
         display: flex;
         flex-direction: column;
         width: 500px;
-        height: 300px;
+        height: 400px;
         padding: 10px;
         text-align: center;
         border-radius: 10px;
