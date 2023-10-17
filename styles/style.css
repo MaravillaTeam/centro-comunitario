@@ -378,3 +378,10 @@ input[type=email]{
     border: none;
     border-radius: 4px;
 }
+
+@media (min-width : 768px) and (max-width: 1024px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
