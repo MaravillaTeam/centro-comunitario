@@ -109,13 +109,13 @@ a {
     column-gap: 20px; /*gallery*/
     overflow-x: scroll; /*gallery*/
     scroll-snap-type: x mandatory;  /*gallery*/
-    /*gap: 10px;*/
+    gap: 10px;
     margin: 50px;
 }
 .newscard{
     background-color: #E070F2;
-    width: 300px;
-    height: 500px;
+    /* width: 300px; */
+    /* height: 500px; */
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -132,8 +132,8 @@ a {
 .newscard h2{
     width: wrap;
     font-size: 18px;
-    /*text-align: justify; /*Si se requiere texto justificado ponerlo aqui*/
-    /*padding-left: 15px;*/ /*En caso de activar el justificar, descomentar este*/
+    text-align: justify; /*Si se requiere texto justificado ponerlo aqui
+   /* padding-left: 15px; En caso de activar el justificar, descomentar este */
 }
 
 /* section news final */
@@ -423,10 +423,13 @@ input[type=email]{
     }
     #news{
         padding: unset; /*restablece propiedades*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
-    .recursosAyuda{
+    /* .recursosAyuda{
         display: inline-table; /*muestra tabla en línea*/
-    }
+    /* } */ */
     #news .container{
         display: inline-table;
         padding-left: 0px;
@@ -454,10 +457,19 @@ input[type=email]{
         width: 40px;
         height: 40px;
     }
+    
+    .cajaF{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /*Tablet*/
-@media (min-whidth : 768%) {
+@media (min-whidth : 768px) {
 
 #nosotros{
     margin: 0px; 
@@ -468,7 +480,7 @@ input[type=email]{
 }
 
 /*Escritorio*/
-@media (min-whidth : 900%) {
+@media (min-whidth : 900px) {
 
     #nosotros{
         margin: 0px; 
