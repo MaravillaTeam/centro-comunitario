@@ -1,5 +1,5 @@
 /*Para todo el html*/
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -167,6 +167,7 @@ a:hover {
     text-align: center;
     font-family: Raleway;
     font-size: 30px;
+    width: 100%;
 
 }
 .Nosotros{
@@ -393,6 +394,93 @@ input[type=email]{
     border: none;
     border-radius: 4px;
 }
+
+
+/*intento de pag responsiva teléfono*/
+
+@media (min-width : 320px) { /*media Queries: te permite crear e implementar diseños que se 
+    adapten a los dispositivos (alto, ancho). Los cambios se aplican sólo a este ancho*/
+   
+    td{
+        font-size: medium; /* Cambia el tamaño de fuente*/
+    }
+    #nosotros{
+        margin: 0px; 
+        padding: 15px; /*es un relleno alrededor del contenido de un elmento dentro de 
+        los bordes (formato y diseño)*/
+    }
+    .card1{
+        display: inline; /*Establece los tipos de visualización interna y externa de un elemento. 
+        El sig elemnto se situa a la dereha*/
+    }
+    .card3{
+        height: auto; /*Altura*/
+    }
+    .container2{
+        display: grid; /*cuadrícula de una sola columna, los elemtos que continuan se muestran 
+        uno debajo del otro*/
+        
+    }
+    #news{
+        padding: unset; /*restablece propiedades*/
+    }
+    .recursosAyuda{
+        display: inline-table; /*muestra tabla en línea*/
+    }
+    #news .container{
+        display: inline-table;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    .newscard{
+        height: auto;
+    }
+    .imgfooter{
+        display: none;
+    }
+    .containerF{
+        gap: unset;
+    }
+    input{
+        width: 50px;
+    }
+    .card2F{
+        height: auto;
+    }
+    .footer{
+        display: inline-table;
+    }
+    .redes{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*Tablet*/
+@media (min-whidth : 768%) {
+
+#nosotros{
+    margin: 0px; 
+    padding: 100px;
+    font-size: xx-large;
+}
+
+}
+
+/*Escritorio*/
+@media (min-whidth : 900%) {
+
+    #nosotros{
+        margin: 0px; 
+        padding: 100px;
+        font-size: xx-large;
+    }
+    
+    }
+
+
+
+
 
 
 
