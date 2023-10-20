@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    transition:all .5s ease-in-out;
 }
 
 body{
@@ -169,6 +170,10 @@ a:hover {
     font-size: 30px;
     width: 100%;
 
+
+}
+.imgban:hover { 
+    filter: blur(100px);
 }
 .Nosotros{
     display: flex;
