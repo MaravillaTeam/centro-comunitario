@@ -90,51 +90,50 @@ a {
 /* news section */
 
 #news{
-    font-family: sans-serif;
     color: black;
-    background-color: #F7F1F8;
-    margin: 10px 0px 10px 0px; /*top righ bottom left*/
-    padding: 20px 36px 20px 36px;
-    border: 50px;
+    background-color: rgba(250, 234, 253, 1);/*#F7F1F8;*/
+    /*margin: 10px 0px 10px 0px; *//*top righ bottom left*/
+    /*padding: 20px 36px 20px 36px;*/
+    padding-top: 10px;
+    /*border: 50px;*/
 }
 #news h1 {
-    padding: 20px 20px 10px 50px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
     font-size: 28px;
 }
 #news .container{
     display: flex;
-    flex-direction: row;
-    align-items: center; /*gallery*/
-    column-gap: 20px; /*gallery*/
-    overflow-x: scroll; /*gallery*/
-    scroll-snap-type: x mandatory;  /*gallery*/
-    gap: 10px;
-    margin: 50px;
+    flex-direction: column;
+    align-items: center; /*gallery:alinea los items al centro*/
+    column-gap: 5px; /*gallery: distancia entre columnas*/
+    overflow-x: scroll; /*gallery:tipo movimiento scroll*/
+    scroll-snap-type: x mandatory;  /*gallery:movimiento horizontal del scroll*/
+    /*gap: 5px;*/
+    /*margin: 50px;*/
 }
 .newscard{
     background-color: #E070F2;
     /* width: 300px; */
     /* height: 500px; */
-    padding: 20px;
-    text-align: center;
+    padding: 5px;
+    /*text-align: center;*/
     border-radius: 10px;
-    margin: 50px 10px 20px 10px; /*top righ bottom left*/   
-    scroll-snap-align: center;  /*gallery*/ /*Centra el card dentro scroll */
+    margin: 5px; /*top righ bottom left*/   
+    scroll-snap-align: bottom;  /*gallery*/ /*Centra el card dentro scroll */
     min-width: 50%; /*gallery*/  /*%del width de la página que ocupa la tarjeta*/
 }
 .newscard img{
     border-radius: 10px;
     width: 100%;
-    height: 75%;
-    object-fit: cover; /* opción en gallery cover / contain*/
+    /*height: 75%; */ /*no tan necesario, toma el alto de acuerdoa al width*/
+    object-fit: cover; /* cover / contain forma en la que se ajusta la imagen(cortarla, comprimirla...)*/
 }
 .newscard h2{
     width: wrap;
     font-size: 18px;
-    text-align: justify; /*Si se requiere texto justificado ponerlo aqui
-   /* padding-left: 15px; En caso de activar el justificar, descomentar este */
+    text-align: justify; 
 }
 
 /* section news final */
@@ -439,10 +438,13 @@ input[type=email]{
         display: inline-table;
         padding-left: 0px;
         margin: 0px;
+        flex-direction: column;
     }
     .newscard{
         height: auto;
+        min-width: 25%;
     }
+  
     .imgfooter{
         display: none;
     }
@@ -482,6 +484,13 @@ input[type=email]{
     font-size: xx-large;
 }
 
+#news .container{
+    display: inline-table;
+    padding-left: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+
 }
 
 /*Escritorio*/
@@ -493,6 +502,11 @@ input[type=email]{
         font-size: xx-large;
     }
     
+    #news .container{
+        display: flex;
+        flex-direction: row;
+    }
+
     }
 
 
