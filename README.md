@@ -14,3 +14,6 @@ María Fernanda Aldana Llamas   <br>
 Denisse de Esesarte Silva   <br>
 Miriam Areli Moreno Zamora   <br>
 Karen Valenzuela Landero 
+
+## Diseño en FIGMA
+https://www.figma.com/file/swmRGD5BNf0DTQ94RDZIoG/Mockup?type=design&node-id=0%3A1&mode=design&t=pain9yBxyNvzKenF-1
